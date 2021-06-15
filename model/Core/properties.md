@@ -1,44 +1,100 @@
-# algorithm
+# annotation
 
-# annotationType
+## Description
 
-# artifactURL
+This is about the annotation property.
 
-# comment
+## Metadata
 
-# completeness
+- Domain: Element
+- Range: Annotation
 
-# created
 
-# dataLicense
+# createdBy
 
-# description
+## Description
 
-# elementURL
+This is about the createdBy property.
 
-# email
+## Metadata
 
-# externalId
+- Domain: Element
+- Range: Identity
+- MinCount: 1
 
-# externalReferenceType
 
-# hashValue
+# extension
 
-# id
+## Description
 
-# locator
+This is about the extension property.
 
-# name
+## Metadata
 
-# namespace
+- Domain: Element
+- Range: Extension
 
-# profile
 
-# relationshipType
+# externalReference
 
-# specVersion
+## Description
 
-# stetement
+This is about the externalReference property.
 
-# summary
+## Metadata
+
+- Domain: Element
+- Range: ExternalReference
+
+
+# from
+
+## Description
+
+This is about the from property.
+
+## Metadata
+
+- Domain: Relationship
+- Range: Element
+- MinCount: 1
+- MaxCount: 1
+
+
+# originator
+
+## Description
+
+This is about the originator property.
+
+## Metadata
+
+- Domain: Artifact
+- Range: Identity
+
+
+# to
+
+## Description
+
+This is about the to property.
+
+## Metadata
+
+- Domain: Relationship
+- Range: Element
+- MinCount: 1
+
+
+# verifiedUsing
+
+## Description
+
+This is about the verifiedUsing property.
+
+## Metadata
+
+- Domain: Element
+- Range: IntegrityMethod
+
 
