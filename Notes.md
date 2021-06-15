@@ -44,3 +44,12 @@ In writing the specification, object properties
 are all placed in a separate file `properties.md`.
 Datatype properties are placed in the class.
 
+### Enumerated classes
+
+When a property has a (small) finite set of possible values,
+it can be useful to create a class to represent those values.
+The class is general, but each of the values is a separate instance.
+
+In writing the specification, instances are listed
+in a separate section in the class file.
+
