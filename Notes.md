@@ -19,6 +19,7 @@ To understand these, the following presents rough equivalents
 in Entity-Relationship and Object Oriented models:
 
 OWL| object properties | data properties
+--- | --- | ---
 E-R| relations | attributes
 OOP| range is class | range is datatype
 
