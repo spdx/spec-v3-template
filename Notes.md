@@ -18,9 +18,9 @@ and data properties are relations between an entity and a data type
 To understand these, the following presents rough equivalents
 in Entity-Relationship and Object Oriented models:
 
-|OWL| object properties | data properties |
-|E-R| relations | attributes |
-|OOP| range is class | range is datatype |
+OWL| object properties | data properties
+E-R| relations | attributes
+OOP| range is class | range is datatype
 
 As an example, think of something like "a person has a gender",
 which in E-R might be implemented as
