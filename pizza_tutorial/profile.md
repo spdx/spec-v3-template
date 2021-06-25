@@ -7,11 +7,11 @@
 All employees must have a valid SSN.
 
 ### Shape
-Class: Employee
-Property: ssn
-MinCount: 1
-MaxCount: 1
-Pattern: "^\\d{3}-\\d{2}-\\d{4}$"
+- Class: Employee
+- Property: ssn
+- MinCount: 1
+- MaxCount: 1
+- Pattern: "^\\d{3}-\\d{2}-\\d{4}$"
 
 ## Phone for employees
 
@@ -20,9 +20,9 @@ Pattern: "^\\d{3}-\\d{2}-\\d{4}$"
 All employees must have a phone number.
 
 ### Shape
-Class: Employee
-Property: hasPhone
-MinCount: 1
+- Class: Employee
+- Property: hasPhone
+- MinCount: 1
 
 ## Valid discounts
 
@@ -31,8 +31,8 @@ MinCount: 1
 Discounts for all customers must be between 0% and 100%.
 
 ### Shape
-Class: Customer
-Property: hasDiscount
-MinInclusive 0.0
-MaxInclusive 1.0
+- Class: Customer
+- Property: hasDiscount
+- MinInclusive 0.0
+- MaxInclusive 1.0
 
