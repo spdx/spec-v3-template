@@ -15,11 +15,11 @@ and inter-relatable content objects.
 
 ## Metadata
 
-id: IRI
-name: Element
-SubclassOf: none
-Instantiability: Abstract
-Status: stable
+- id: IRI
+- name: Element
+- SubclassOf: none
+- Instantiability: Abstract
+- Status: stable
 
 ## Data Properties
 
