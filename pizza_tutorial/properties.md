@@ -1,137 +1,137 @@
 # hasBase
 
-##Description
+## Description
 
 This is about the hasBase property.
 
 ## Metadata
 
-SubclassOf: hasIngredient
-Domain: Pizza
-Range: PizzaBase
+- SubclassOf: hasIngredient
+- Domain: Pizza
+- Range: PizzaBase
 
 
 # hasIngredient
 
-##Description
+## Description
 
 This is about the hasIngredient property.
 
 
 # hasSpiciness
 
-##Description
+## Description
 
 This is about the hasSpiciness property.
 
 ## Metadata
 
-Domain: PizzaTopping
-Range: Spiciness
+- Domain: PizzaTopping
+- Range: Spiciness
 
 
 # hasSpicinessPreference
 
-##Description
+## Description
 
 This is about the hasSpicinessPreference property.
 
 ## Metadata
 
-Domain: Customer
-Range: Spiciness
+- Domain: Customer
+- Range: Spiciness
 
 
 # hasTopping
 
-##Description
+## Description
 
 This is about the hasTopping property.
 
 ## Metadata
 
-SubclassOf: hasIngredient
-Domain: Pizza
-Range: PizzaTopping
+- SubclassOf: hasIngredient
+- Domain: Pizza
+- Range: PizzaTopping
 
 # isBaseOf
 
-##Description
+## Description
 
 This is about the isBaseOf property.
 
 ## Metadata
 
-SubclassOf: isIngredientOf
-Domain: PizzaBase
-Range: Pizza
+- SubclassOf: isIngredientOf
+- Domain: PizzaBase
+- Range: Pizza
 
 # isIngredientOf
 
-##Description
+## Description
 
 This is about the isIngredientOf property.
 
 
 # isMilderThan
 
-##Description
+## Description
 
 This is about the isMilderThan property.
 
 ## Metadata
 
-Domain: Spiciness
-Range: Spiciness
+- Domain: Spiciness
+- Range: Spiciness
 
 
 
 
 # isSpicierThan
 
-##Description
+## Description
 
 This is about the isSpicierThan property.
 
 ## Metadata
 
-Domain: Spiciness
-Range: Spiciness
+- Domain: Spiciness
+- Range: Spiciness
 
 
 # isToppingOf
 
-##Description
+## Description
 
 This is about the isToppingOf property.
 
 ## Metadata
 
-SubclassOf: isIngredientOf
-Domain: PizzaTopping
-Range: Pizza
+- SubclassOf: isIngredientOf
+- Domain: PizzaTopping
+- Range: Pizza
 
 
 # purchasedByCustomer
 
-##Description
+## Description
 
 This is about the purchasedByCustomer property.
 
 ## Metadata
 
-Domain: Pizza
-Range: Customer
+- Domain: Pizza
+- Range: Customer
 
 
 # purchasedPizza
 
-##Description
+## Description
 
 This is about the purchasedPizza property.
 
 ## Metadata
 
-Domain: Customer
-Range: Pizza
+- Domain: Customer
+- Range: Pizza
 
