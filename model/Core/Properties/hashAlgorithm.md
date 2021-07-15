@@ -12,5 +12,5 @@ A hashAlgorithm is TODO
 
 - name: hashAlgorithm
 - Nature: DataProperty
-- Range: hashAlgorithmVocab
+- Range: HashAlgorithmVocab
 
