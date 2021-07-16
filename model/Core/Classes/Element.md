@@ -15,13 +15,11 @@ and inter-relatable content objects.
 
 ## Metadata
 
-- id: IRI
 - name: Element
 - SubclassOf: none
 - Instantiability: Abstract
-- Status: stable
 
-## Data Properties
+## Properties
 
 - id
   - type: idString
@@ -29,27 +27,34 @@ and inter-relatable content objects.
   - maxCount: 1
 - name
   - type: xsd:string
-  - minCount: 0
   - maxCount: 1
 - summary
   - type: xsd:string
-  - minCount: 0
   - maxCount: 1
 - description
   - type: xsd:string
-  - minCount: 0
   - maxCount: 1
 - comment
   - type: xsd:string
-  - minCount: 0
   - maxCount: 1
 - specVersion
-  - type: SemVer
-- created
+  - type: xsd:string
+- createdTime
   - type: xsd:dateTime
+- createdBy
+  - type: Identity
 - profile
   - type: ProfileIdentifier
   - minCount: 1
 - dataLicense
   - type: xsd:string
+- profile
+  - type: ProfileIdentifier
+  - minCount: 1
+- externalReference
+  - type: ExternalReference | 0 | * | |
+- extension
+  - type: Extension | 0 | * | |
+- verifiedUsing
+  - type: IntegrityMethod
 
