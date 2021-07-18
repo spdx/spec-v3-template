@@ -13,7 +13,7 @@ This is about the File class.
 - name: File
 - SubclassOf: Core:Artifact
 
-## Data Properties
+## Properties
 
 - fileType
   - type: FileType

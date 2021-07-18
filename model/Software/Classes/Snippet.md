@@ -13,7 +13,7 @@ This is about the Snippet class.
 - name: Snippet
 - SubclassOf: Core:Artifact
 
-## Data Properties
+## Properties
 
 - location
   - type: SnippetLocation

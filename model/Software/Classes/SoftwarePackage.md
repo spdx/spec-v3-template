@@ -13,7 +13,7 @@ This is about the SoftwarePackage class.
 - name: SoftwarePackage
 - SubclassOf: Core:Package
 
-## Data Properties
+## Properties
 
 - softwarePackageType
   - type: SoftwarePackageType
