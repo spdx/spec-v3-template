@@ -21,40 +21,19 @@ and inter-relatable content objects.
 
 ## Properties
 
-- id
-  - type: idString
-  - minCount: 1
-  - maxCount: 1
-- name
-  - type: xsd:string
-  - maxCount: 1
-- summary
-  - type: xsd:string
-  - maxCount: 1
-- description
-  - type: xsd:string
-  - maxCount: 1
-- comment
-  - type: xsd:string
-  - maxCount: 1
-- specVersion
-  - type: xsd:string
-- createdTime
-  - type: xsd:dateTime
-- createdBy
-  - type: Identity
-- profile
-  - type: ProfileIdentifier
-  - minCount: 1
-- dataLicense
-  - type: xsd:string
-- profile
-  - type: ProfileIdentifier
-  - minCount: 1
-- externalReference
-  - type: ExternalReference | 0 | * | |
-- extension
-  - type: Extension | 0 | * | |
-- verifiedUsing
-  - type: IntegrityMethod
-
+| property    | type         | minCount | maxCount | format |
+| ----------- | ------------ | -------- | -------- | ------ |
+| id          | idString     | 1        | 1        |        |
+| name        | xsd:string   |          | 1        |        |
+| summary     | xsd:string   |          | 1        |        |
+| description | xsd:string   |          | 1        |        |
+| comment     | xsd:string   |          | 1        |        |
+| specVersion | xsd:string   |          |          |        |
+| createdTime | xsd:dateTime |          |          |        |
+| createdBy   | Identity     |          |          |        |
+| profile     | ProfileIdentifier | 1   |          |        |
+| dataLicense | xsd:string   |          |          |        |
+| profile     | ProfileIdentifier | 1   |          |        |
+| externalReference | ExternalReference | 0 | *    |        |
+| extension   | Extension    | 0        | *        |        |
+| verifiedUsing | IntegrityMethod |     |          |        |
