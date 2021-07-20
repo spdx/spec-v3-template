@@ -48,13 +48,10 @@ and inter-relatable content objects.
   - minCount: 1
 - dataLicense
   - type: xsd:string
-- profile
-  - type: ProfileIdentifier
-  - minCount: 1
 - externalReference
-  - type: ExternalReference | 0 | * | |
+  - type: ExternalReference
 - extension
-  - type: Extension | 0 | * | |
+  - type: Extension
 - verifiedUsing
   - type: IntegrityMethod
 
