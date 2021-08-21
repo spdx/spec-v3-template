@@ -1,5 +1,7 @@
 # Package
 
+## Summary
+
 ## Description
 
 This is about the Package class.
@@ -8,3 +10,4 @@ This is about the Package class.
 
 - SubclassOf: Artifact
 
+## Properties
