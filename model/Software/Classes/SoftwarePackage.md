@@ -1,14 +1,19 @@
 # SoftwarePackage
 
+## Summary
+
+This is about the summary of SoftwarePackage class.
+
 ## Description
 
 This is about the SoftwarePackage class.
 
 ## Metadata
 
-SubclassOf: Core:Package
+- name: SoftwarePackage
+- SubclassOf: Core:Package
 
-## Data Properties
+## Properties
 
 - softwarePackageType
   - type: SoftwarePackageType

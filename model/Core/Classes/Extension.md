@@ -15,3 +15,4 @@ Extension acts as an abstract class basis for defining specific subclasses for c
 - SubclassOf: none
 - Instantiability: Abstract
 
+## Properties

@@ -12,10 +12,9 @@ such as an electronic file, a software package, a device or an element of data.
 ## Metadata
 
 - name: Artifact
-- SubclassOf: Element; Agent
+- SubclassOf: Element Agent
 - Instantiability: Abstract
 - Status: unstable
-
 
 ## Properties
 
@@ -27,4 +26,3 @@ such as an electronic file, a software package, a device or an element of data.
   - type: Identity
   - minCount: 0
   - maxCount: 1
-

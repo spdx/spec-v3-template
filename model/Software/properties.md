@@ -1,8 +1,0 @@
-# contentType
-
-# fileType
-
-# location
-
-# softwarePackageType
-

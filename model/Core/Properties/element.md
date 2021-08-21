@@ -2,11 +2,11 @@
 
 ## Summary
 
-TODO
+This is about the summary of element property.
 
 ## Description
 
-A element is TODO
+This is about the element property.
 
 ## Metadata
 

@@ -1,14 +1,19 @@
 # File
 
+## Summary
+
+This is about the summary of File class.
+
 ## Description
 
 This is about the File class.
 
 ## Metadata
 
-SubclassOf: Core:Artifact
+- name: File
+- SubclassOf: Core:Artifact
 
-## Data Properties
+## Properties
 
 - fileType
   - type: FileType
